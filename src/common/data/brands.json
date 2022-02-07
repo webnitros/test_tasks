@@ -1,0 +1,107 @@
+[
+  {
+    "name": "B",
+    "class": "",
+    "children": ["Bohemia ivele","Beby","Brillica led","Brizzi modern"]
+  },
+  {
+    "name": "C",
+    "class": "",
+    "children": ["Сitilux","Сhiaro","Сrystal lux","Сatellani smith"]
+  },
+  {
+    "name": "D",
+    "class": "",
+    "children": ["Divinare","Dark","Delta light","Dio d arte"]
+  },
+  {
+    "name": "E",
+    "class": "",
+    "children": ["Eglo","Esedra","Egoluce","Era"]
+  },
+  {
+    "name": "F",
+    "class": "",
+    "children": ["Fabbian","Foscarini","Fontana arte","Favourite"]
+  },
+  {
+    "name": "G",
+    "class": "",
+    "children": ["Globo","Gauss","Gamma delta","Globo new"]
+  },
+  {
+    "name": "i",
+    "class": "",
+    "children": ["idlamp","ideal lux","intra lighting","idee design"]
+  },
+  {
+    "name": "J",
+    "class": "mini_card",
+    "children": ["Jung","Anthologie quartett"]
+  },
+  {
+    "name": "K",
+    "class": "mini_card",
+    "children": ["Kolarz","Kink light","Anthologie quartett"]
+  },
+  {
+    "name": "L",
+    "class": "",
+    "children": ["Lussole","Lightstar","Lucia tucci","Lucide"]
+  },
+  {
+    "name": "M",
+    "class": "",
+    "children": ["Mantra","Maytoni","Mw light","Morosini"]
+  },
+  {
+    "name": "N",
+    "class": "",
+    "children": ["Novotech","Nowodvorski","Nervilamp","Neon night"]
+  },
+  {
+    "name": "O",
+    "class": "",
+    "children": ["Odeon light","Osgona","Oligo","Ole"]
+  },
+  {
+    "name": "P",
+    "class": "mini_card",
+    "children": ["Prearo","Panzer","Pallucco italia","Anthologie quartett"]
+  },
+  {
+    "name": "R",
+    "class": "",
+    "children": ["Riperlamp","Rotaliana","Runden","Rexant"]
+  },
+  {
+    "name": "S",
+    "class": "",
+    "children": ["Sonex","St luce","Slv","Studio italia"]
+  },
+  {
+    "name": "T",
+    "class": "",
+    "children": ["Tobias grau","Traddel","Toplight","Topdecor"]
+  },
+  {
+    "name": "U",
+    "class": "mini_card",
+    "children": ["Ultraflash","Anthologie quartett"]
+  },
+  {
+    "name": "V",
+    "class": "",
+    "children": ["Vegas","Vistosi","Vele luce","Voltega"]
+  },
+  {
+    "name": "W",
+    "class": "mini_card",
+    "children": ["Wever ducre","Werkel","Anthologie quartett"]
+  },
+  {
+    "name": "Z",
+    "class": "mini_card",
+    "children": ["Zumaline","Anthologie quartett"]
+  }
+]

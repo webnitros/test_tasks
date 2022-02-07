@@ -1,0 +1,12 @@
+$container-max-widths-custom: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1140px,
+        xxl: 1400px
+) !default;
+$container-max-widths: map-merge($container-max-widths, $container-max-widths-custom);
+
+
+$filterPrimary: invert(50%) sepia(62%) saturate(6014%) hue-rotate(349deg) brightness(94%) contrast(92%);
+$filterPrimaryGrey: invert(69%) sepia(9%) saturate(15%) hue-rotate(359deg) brightness(88%) contrast(84%);;

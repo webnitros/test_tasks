@@ -1,0 +1,69 @@
+.headers_top {
+  border-top: 10px solid #de5617;
+  background: #333;
+  max-height: 51px;
+
+  .navbar__top {
+    a:hover {
+      color: $primary !important;
+
+      img {
+        filter: $filterPrimary;
+      }
+    }
+  }
+
+  .navbar {
+    padding: 0 2px;
+    font-size: 17px;
+    font-weight: 600;
+
+    .navbar__menu a {
+      padding: 8px 20px;
+    }
+
+    .navbar__location, .navbar__phone {
+      letter-spacing: 0.8px;
+    }
+
+    .navbar__menu a, .navbar-brand, .navbar__phone {
+      transition: .2s;
+      font-size: 17px;
+      font-weight: 600;
+      color: #fff;
+      letter-spacing: 0.07px;
+    }
+
+    .navbar__phone {
+      margin-left: 15px;
+      letter-spacing: 0.9px;
+      margin-right: -2px;
+
+      img {
+        margin-top: -1px;
+      }
+
+      span {
+        margin-left: 10px;
+      }
+    }
+
+    .navbar__phone_number {
+      margin-left: 20px;
+      margin-right: 23px;
+      letter-spacing: 0.08px;
+    }
+
+    .navbar__location {
+      margin: -1px 0 0 0;
+
+      span {
+        letter-spacing: 0.7px;
+        margin-left: 15px;
+      }
+    }
+
+  }
+
+}
+

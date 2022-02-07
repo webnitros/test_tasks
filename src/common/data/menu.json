@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Распродажа",
+    "url": "/products_new_card.html",
+    "class": "sale  more dropdown",
+    "children": "<div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\"><a href=\"/\" class=\"dropdown-item\" >Акционные товары</a><a href=\"/\" class=\"dropdown-item\">Уличное освещение</a></div>"
+  },
+  {
+    "title": "Уценка",
+    "url": "/products_new_card.html",
+    "class": "",
+    "children": ""
+  },
+  {
+    "title": "светильники",
+    "url": "/products_new_card.html",
+    "class": "",
+    "children": ""
+  },
+  {
+    "title": "Люстры",
+    "url": "/products_new_card.html",
+    "class": "",
+    "children": ""
+  },
+  {
+    "title": "Бра",
+    "url": "/products_new_card.html",
+    "class": "",
+    "children": ""
+  },
+  {
+    "title": "Споты",
+    "url": "/products_new_card.html",
+    "class": "",
+    "children": ""
+  },
+  {
+    "title": "Трековые",
+    "url": "/products_new_card.html",
+    "class": "",
+    "children": ""
+  },
+  {
+    "title": "Встраиваемые светильники",
+    "url": "/products_new_card.html",
+    "class": "",
+    "children": ""
+  },
+  {
+    "title": "еще",
+    "url": "/products_new_card.html",
+    "class": "more dropdown",
+    "children": "<ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenu2\">\n                        <li><button class=\"dropdown-item\" type=\"button\">Action</button></li>\n                        <li><button class=\"dropdown-item\" type=\"button\">Another</button></li>\n                    </ul>"
+  },
+  {
+    "title": "Декор",
+    "url": "/products_new_card.html",
+    "class": "",
+    "children": ""
+  },
+  {
+    "title": "Электротовары",
+    "url": "/products_new_card.html",
+    "class": "",
+    "children": ""
+  }
+]

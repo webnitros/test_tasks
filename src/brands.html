@@ -1,0 +1,169 @@
+@@include('html/_header.html', {
+"title": "Бренды",
+"layout": "home"
+})
+<main >
+
+    <section class="container-xxl">
+        <div class="row">
+            <div class="content">
+                <div class="content_title">
+                    <h1>Производители люстр и светильников<span class="content_title__badge">332 брендов</span></h1>
+                </div>
+                <div class="content_body">
+                    <div class="page_brands">
+                        <!-- поиск -->
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="page_brands_search">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="page_brands__search__query form-control" placeholder="Поиск по брендам" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                                        <div class="page_brands_clear" style="display:none;"></div>
+                                        <div class="input-group-prepend">
+                                            <button class="btn input-group-text">Поиск</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- фильтры -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="page_brands_filters">
+                                    <div class="page_brands_filters_alphabet">
+                                        <span class="alphabet_button">ВСЕ БРЕНДЫ</span>
+                                        <span>A</span>
+                                        <span>B</span>
+                                        <span>C</span>
+                                        <span>D</span>
+                                        <span>E</span>
+                                        <span>F</span>
+                                        <span>C</span>
+                                        <span>H</span>
+                                        <span>I</span>
+                                        <span>J</span>
+                                        <span>K</span>
+                                        <span>L</span>
+                                        <span>M</span>
+                                        <span>N</span>
+                                        <span>O</span>
+                                        <span>P</span>
+                                        <span>Q</span>
+                                        <span>R</span>
+                                        <span>S</span>
+                                        <span>T</span>
+                                        <span>U</span>
+                                        <span>V</span>
+                                        <span>W</span>
+                                        <span>X</span>
+                                        <span>Y</span>
+                                        <span class="number">Z</span>
+                                        <span class="first">А</span>
+                                        <span>Б</span>
+                                        <span>В</span>
+                                        <span>Г</span>
+                                        <span>Д</span>
+                                        <span>Е</span>
+                                        <span>Ё</span>
+                                        <span>Ж</span>
+                                        <span>З</span>
+                                        <span>И</span>
+                                        <span>Й</span>
+                                        <span>К</span>
+                                        <span>Л</span>
+                                        <span>М</span>
+                                        <span>Н</span>
+                                        <span>О</span>
+                                        <span>П</span>
+                                        <span>Р</span>
+                                        <span>С</span>
+                                        <span>Т</span>
+                                        <span>У</span>
+                                        <span>Ф</span>
+                                        <span>Х</span>
+                                        <span>Ц</span>
+                                        <span>Ч</span>
+                                        <span class="active">Ш</span>
+                                        <span>Щ</span>
+                                        <span>Ю</span>
+                                        <span>Я</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row page_brands__search">
+                            <div class="col-md-12">
+                                <h4>Найдено совпадений:</h4>
+                                <div class="page_brands__search__results">
+                                    <div class="d-flex flex-wrap" id="page_brands__search__results__items">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="page_brands_list">
+                            <ul>
+                                <li>
+                                    <span class="page_brands_closed"></span>
+                                    <div class="page_brands_list_bukva">A</div>
+                                    <div class="page_brands_list_block">
+                                        <div class="page_brands_list_items">
+                                            <div class="page_brands_list_item page_brands_list_item_search">
+                                                <a href="#">Arte lamp</a>
+                                            </div>
+
+                                            <div class="page_brands_list_item page_brands_list_item_search">
+                                                <a href="#" class="hover">Ambiente by brizzi</a>
+                                            </div>
+
+                                            <div class="page_brands_list_item page_brands_list_item_search">
+                                                <a href="#">Axo light</a>
+                                            </div>
+
+                                            <div class="page_brands_list_item page_brands_list_item_search">
+                                                <a href="#">Avmazzega</a>
+                                            </div>
+
+                                            <div class="page_brands_list_item page_brands_list_item__hide">
+                                                <a href="#">Avmazzega</a>
+                                            </div>
+
+                                            <div class="page_brands_list_item page_brands_list_item__hide">
+                                                <a href="#">Avmazzega</a>
+                                            </div>
+
+                                            <div class="page_brands_list_item page_brands_list_item__hide">
+                                                <a href="#">Axo light</a>
+                                            </div>
+
+                                            <div class="page_brands_list_item page_brands_list_item__hide">
+                                                <a href="#">Avmazzega</a>
+                                            </div>
+
+                                            <div class="page_brands_list_item page_brands_list_item__hide">
+                                                <a href="#">Avmazzega</a>
+                                            </div>
+
+                                            <div class="page_brands_list_item page_brands_list_item__hide">
+                                                <a href="#">Avmazzega</a>
+                                            </div>
+                                            <div class="page_brands_list_item more"><a href="#" class="js_open_brands" data-count="100">Показать ещё 100</a></div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                @@loop('html/chunks/page/brands/item.html', 'common/data/brands.json')
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</main>
+@@include('html/_footer.html')

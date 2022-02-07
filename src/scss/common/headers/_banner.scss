@@ -1,0 +1,82 @@
+@mixin mediaBanner() {
+
+  @include media-breakpoint-down(xl) {
+    .nomob {
+      display: none;
+    }
+  }
+
+  @include media-breakpoint-up(xl) {
+    font-size: 16px;
+  }
+
+  @include media-breakpoint-up(xxl) {
+    font-size: 20px;
+  }
+}
+
+.header_orangeLine {
+  background: #de5617;
+
+  .header_orange_df {
+    padding: 10px 0px 0;
+    background: #de5617;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    width: 100%;
+  }
+
+  .header_orange_val {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 58px;
+  }
+
+  .header_orange_val .value {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: 700;
+    padding: 0 4px;
+    background: #fff;
+    border-radius: 3px;
+    color: #de5617;
+    font-size: 25px;
+    line-height: 29px;
+    @include mediaBanner();
+  }
+
+  .header_orange_val .name {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 26px;
+    line-height: 30px;
+    color: #fff;
+    margin-left: 12px;
+
+    @include mediaBanner();
+  }
+
+  .header_orange_title {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    -webkit-flex-grow: 1;
+    -moz-box-flex: 1;
+    flex-grow: 1;
+    font-size: 26px;
+    line-height: 30px;
+    color: #fff;
+    margin-top: auto;
+    margin-bottom: auto;
+    @include mediaBanner();
+
+
+  }
+}

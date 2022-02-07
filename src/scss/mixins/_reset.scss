@@ -1,0 +1,26 @@
+@mixin reset-list(){
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+@mixin reset-mp(){
+  padding: 0;
+  margin: 0;
+}
+
+%message-shared {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+// This CSS won't print because %equal-heights is never extended.
+%equal-heights {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.message {
+  @extend %message-shared;
+}

@@ -1,0 +1,45 @@
+<div class="input-group navbar_center__search">
+    <!-- select search -->
+    <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split navbar_center__select" data-bs-toggle="dropdown" aria-expanded="false">
+        <span>Везде</span>
+    </button>
+    <ul class="dropdown-menu navbar_center__select">
+        <li><a class="dropdown-item" href="#">Свет</a></li>
+        <li><a class="dropdown-item" href="#">Декор</a></li>
+        <li><a class="dropdown-item" href="#">Электротовары</a></li>
+    </ul>
+
+
+    <!-- input -->
+    <input type="hidden" name="search_param" value="all" id="search_param">
+    <input type="text" class="form-control navbar_center__input" name="x" placeholder="Поиск / 40 000 товаров">
+
+    <!-- icons -->
+
+    <!-- icons spinner -->
+    <span class="input-group-text navbar_center__icon navbar_center__spinner navbar_center__icon__preloader">
+        @@include('../../spinner.html')
+    </span>
+
+    <!-- icons cancel-->
+    <button class="input-group-text navbar_center__icon navbar_center__icon__cancel">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10.9825 8.99941L17.7124 2.26917C17.8976 2.0839 17.9997 1.83673 18 1.57317C18 1.30946 17.8979 1.062 17.7124 0.877024L17.1227 0.287415C16.9373 0.101707 16.6901 0 16.4262 0C16.1628 0 15.9157 0.101707 15.7302 0.287415L9.00029 7.01722L2.27005 0.287415C2.08493 0.101707 1.83761 0 1.5739 0C1.31049 0 1.06317 0.101707 0.878049 0.287415L0.288 0.877024C-0.096 1.26102 -0.096 1.88561 0.288 2.26917L7.0181 8.99941L0.288 15.7294C0.102732 15.9149 0.000731707 16.1621 0.000731707 16.4257C0.000731707 16.6892 0.102732 16.9364 0.288 17.1218L0.877902 17.7114C1.06302 17.897 1.31049 17.9988 1.57376 17.9988C1.83746 17.9988 2.08478 17.897 2.2699 17.7114L9.00015 10.9815L15.7301 17.7114C15.9155 17.897 16.1627 17.9988 16.4261 17.9988H16.4264C16.69 17.9988 16.9371 17.897 17.1225 17.7114L17.7123 17.1218C17.8974 16.9365 17.9996 16.6892 17.9996 16.4257C17.9996 16.1621 17.8974 15.9149 17.7123 15.7295L10.9825 8.99941Z"
+                  fill="#999999"/>
+        </svg>
+    </button>
+
+    <!-- icons camera -->
+    <button class="input-group-text navbar_center__icon navbar_center__icon__camera oneClick" data-form-code="podbor_foto" data-modal-options-static="1" title="Подбор светильников по изображению">
+     <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11.768 7.85726C12.7444 8.8336 12.7444 10.4166 11.768 11.3929C10.7917 12.3692 9.20872 12.3692 8.23238 11.3929C7.25604 10.4166 7.25604 8.8336 8.23238 7.85726C9.20872 6.88091 10.7917 6.88091 11.768 7.85726"
+              fill="#999999"/>
+        <path d="M17.5 2.74984H15.7726L14.522 0.249756H5.47686L4.22741 2.75107L2.5025 2.75414C1.12735 2.7566 0.00790247 3.87723 0.00671505 5.253L0 15.2496C0 16.6285 1.12125 17.7503 2.50009 17.7503H17.5C18.8788 17.7503 20 16.6291 20 15.2502V5.24989C20 3.87109 18.8788 2.74984 17.5 2.74984V2.74984ZM9.99969 14.6252C7.24263 14.6252 4.99952 12.3821 4.99952 9.62503C4.99952 6.86797 7.24263 4.62486 9.99969 4.62486C12.7568 4.62486 14.9999 6.86797 14.9999 9.62503C14.9999 12.3821 12.7568 14.6252 9.99969 14.6252V14.6252Z"
+              fill="#999999"/>
+    </svg>
+    </button>
+
+    <!-- btn -->
+    <button class="btn btn-primary navbar_center__button" type="button" id="button-addon2">Поиск</button>
+
+</div>

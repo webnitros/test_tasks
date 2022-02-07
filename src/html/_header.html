@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ru" class="mode--dev js rgba boxshadow csstransitions js rgba boxshadow csstransitions">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>@@title</title>
+    <meta name="figma" content="@@figma">
+    <link rel="stylesheet" href="css/main.min.css?v=1">
+    <script src="https://kit.fontawesome.com/0891c50010.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="page@@if(layout != ''){ page--@@layout}">
+<header>
+  <!--  @@include('chunks/headers/banner.html')-->
+    @@include('chunks/headers/top_mobile.html')
+
+    <div class="headers_top bg-dark">
+        <div class="container-xl">
+            <div class="row">
+                @@include('chunks/headers/top.html')
+            </div>
+        </div>
+    </div>
+
+    <div class="headers_center">
+        <div class="container-xl">
+            <div class="row">
+                @@include('chunks/headers/center.html')
+            </div>
+        </div>
+    </div>
+
+
+    <div class="header_line"></div>
+    <div class="headers_menu">
+        <div class="headers_menu__wrapper">
+            <div class="container-xl">
+                @@include('chunks/headers/menu.html')
+            </div>
+        </div>
+    </div>
+
+    <div class="container-xl">
+        <div class="row">
+            @@include('chunks/headers/breadcrumb.html')
+        </div>
+    </div>
+
+</header>

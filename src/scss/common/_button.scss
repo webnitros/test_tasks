@@ -1,0 +1,17 @@
+.btn-outline {
+  &-success:hover {
+    color: #fff;
+  }
+
+  &-primary, &-success {
+    color: #000;
+    font-weight: 400;
+  }
+}
+
+.btn-lg {
+  font-size: 13px;
+  line-height: 34px;
+}
+
+

@@ -1,0 +1,20 @@
+@mixin mediaZoom($screen,$zoom) {
+  $max: $screen + 20;
+  @media (min-width: $screen) and (max-width: $max) {
+    zoom: $zoom;
+    -moz-transform: scale($zoom);
+    -moz-transform-origin: top center;
+  }
+}
+
+html {
+  $zoom: 1;
+  $screen: 1240px;
+  @for $i from 1 through 40 {
+    $screen: $screen - 10;
+    $zoom: $zoom - 0.008;
+    @include mediaZoom($screen, $zoom);
+  }
+}
+
+
